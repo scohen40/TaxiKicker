@@ -22,13 +22,20 @@
     <p>kick 50 times to defeat!</p>
 
     <img id="taxi_image" src="images/annoying_taxi.jpeg">
-    <div id="kicker_buttons">
-      <button id="click_one">one kick</button>
-      <button id="click_two">two kicks</button>
-      <button id="click_three">three kicks</button> 
+
+    <div id="kicking_div">
+      <div id="kicker_buttons">
+        <button id="click_one">one kick</button>
+        <button id="click_two">two kicks</button>
+        <button id="click_three">three kicks</button> 
+      </div>
+      <p>Kick Count: </p>
+      <p id="click_count">0</p>
     </div>
-    <p>Kick Count: </p>
-    <p id="click_count">0</p>
+    <div id="win_div" hidden>
+      <h2>YOU DEFEATED THE TAXI!</h2>
+      <button id="replay_button">Play again?</button>
+    </div>
     
   </main>
 
